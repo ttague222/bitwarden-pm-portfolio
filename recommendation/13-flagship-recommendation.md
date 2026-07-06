@@ -133,6 +133,11 @@ Each extension ships behind a flag with a holdout and is measured on resolved ri
 | Free actions outrank paid suggestions. | Security progress must come before upsell. |
 | Nothing blocks unlock, find, save, or fill. | Daily-path utility is sacred. |
 | No urgency mechanics, streaks, guilt copy, or disguised upsell. | Bitwarden's community will reject manipulative growth mechanics. |
+| Every phase specifies behavior for all four personas (strategy/04). | A surface that is essential for the Switcher and noisy for the Daily Retriever is not done. |
+
+## Persona Discipline
+
+One guidance surface has four different correct behaviors. The program is designed against four evidence-derived personas, each anchored to the public research: **the Switcher** (post-import, autofill off, needs setup recovery), **the Daily Retriever** (retrieval-only usage, needs restraint and reliability), **the Community Auditor** (needs reasons, agency, and inspectable logic; the RFC is their feature), and **the Household Steward** (the renewal decider; the value summary is their surface). The per-phase, per-persona behavior matrix lives in [strategy/04-user-personas.md](../strategy/04-user-personas.md); no phase exits without it.
 
 ## Team And Dependencies
 

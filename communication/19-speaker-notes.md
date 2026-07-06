@@ -19,7 +19,7 @@
 
 **S7 (2:00).** The pivot point of the whole talk, slow down. "Fifty-one votes to dismiss a warning. Forty to explain it. Thirteen thousand views asking 'why is this flagged?' Your own users wrote a product spec in the feature-request forum. That's not a complaint; that's a gift."
 
-**S8 (2:00).** One line per opportunity, no more, the briefs exist. Signal depth, not coverage: "Each of these has a full discovery brief: evidence, hypotheses, experiments, unknowns, and what internal data would change my mind."
+**S8 (2:00).** One line per opportunity, no more, the briefs exist. Signal depth, not coverage: "Each of these has a full discovery brief: evidence, hypotheses, experiments, unknowns, and what internal data would change my mind." Then point at the persona strip: "And everything downstream is designed against four evidence-derived personas, because one guidance surface has four different correct behaviors. A checklist that is essential for the person who just imported 400 items is noise for the person who opens the app to grab one credential. The personas are how the program stays respectful for both."
 
 **S9 (1:30).** Pre-empt the scoring skepticism yourself: "Weighted scores are judgment made inspectable, not math. If your internal numbers say my demand column is wrong, the table recalculates in front of you, that's what it's for."
 

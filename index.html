@@ -17,6 +17,7 @@
       <nav class="top-nav" aria-label="Primary navigation">
         <a href="#evidence">Evidence</a>
         <a href="#program">Program</a>
+        <a href="#personas">Personas</a>
         <a href="#mockups">Mockups</a>
         <a href="#slides">Slides</a>
       </nav>
@@ -180,13 +181,58 @@
         </ol>
       </section>
 
+      <section id="personas" class="section persona-section">
+        <div class="section-heading">
+          <p class="eyebrow">Who this serves</p>
+          <h2>One guidance surface, four correct behaviors.</h2>
+          <p>
+            These personas are not invented demographics. Each is a behavioral segment that surfaced repeatedly
+            in the public research, named by what the person does and anchored to the evidence that proves they exist.
+            The same feature must behave differently for each of them.
+          </p>
+        </div>
+        <div class="persona-grid">
+          <article class="persona-card">
+            <span class="tag">P1</span>
+            <h3>The Switcher</h3>
+            <p class="persona-who">Just imported 400 items from Chrome or 1Password. Autofill still off. One bad week from sliding back to the browser default.</p>
+            <p class="persona-need"><strong>Needs:</strong> setup recovery, sequenced warnings, and a duplicate-free vault. The checklist is their surface.</p>
+            <p class="persona-evidence">Evidence: 8 new importers shipped; save-prompt defect #1620; 466 votes for duplicate tooling.</p>
+          </article>
+          <article class="persona-card">
+            <span class="tag">P2</span>
+            <h3>The Daily Retriever</h3>
+            <p class="persona-who">The silent majority. Opens the app to get one credential and leave. Has never seen Reports. Most damaged by regressions and un-dismissible prompts.</p>
+            <p class="persona-need"><strong>Needs:</strong> reliability and restraint. Guidance appears rarely, explains itself, and stays dismissed.</p>
+            <p class="persona-evidence">Evidence: top open issues are all daily-path friction; popup delay #12286; unlock re-prompt complaints.</p>
+          </article>
+          <article class="persona-card">
+            <span class="tag">P3</span>
+            <h3>The Community Auditor</h3>
+            <p class="persona-who">Self-hosts, reads the source, votes on the forum, and screenshots anything that smells like a dark pattern. A minority of users; the majority of the public voice.</p>
+            <p class="persona-need"><strong>Needs:</strong> agency, reasons, inspectable logic. The published methodology and RFC are their feature.</p>
+            <p class="persona-evidence">Evidence: 973-post redesign megathread; 40 votes for "state the reason flagged"; the SDK license episode.</p>
+          </article>
+          <article class="persona-card">
+            <span class="tag">P4</span>
+            <h3>The Household Steward</h3>
+            <p class="persona-who">The person who pays. Manages the family plan, fields the lockout texts, and decides in January 2027 whether double the old price was worth it.</p>
+            <p class="persona-need"><strong>Needs:</strong> proof. A factual annual account of what Premium actually did. The value summary is their surface.</p>
+            <p class="persona-evidence">Evidence: the Enhanced Premium repricing; the loyalty cohort stepping to full price; family-sharing demand.</p>
+          </article>
+        </div>
+        <p class="persona-footnote">Full persona treatment, including how each flagship phase adapts per persona: <em>strategy/04-user-personas.md</em> in the repository. Enterprise employee and admin personas are deliberately scoped to the Access Intelligence surface.</p>
+      </section>
+
       <section id="mockups" class="section">
         <div class="section-heading">
           <p class="eyebrow">Stakeholder mockups</p>
           <h2>PLG concepts that preserve trust.</h2>
           <p>
             These are deliberately light concept mockups: enough to make the product direction concrete, not enough
-            to pretend the discovery is done.
+            to pretend the discovery is done. Bitwarden already ships a get-started checklist; the concept on the left
+            is different on purpose. It is state-aware recovery: it returns only when the evidence says setup is
+            incomplete, at a moment of demonstrated need, and it stays dismissed when the user says so.
           </p>
         </div>
         <div class="mockup-grid">
@@ -196,6 +242,7 @@
               <span class="mini-shield">B</span>
               <strong>Security progress</strong>
             </div>
+            <p class="resume-note">You dismissed this in January. It returned because autofill is still off and you copied a password 3 times this week.</p>
             <div class="progress-ring">
               <span>4 of 6</span>
               <small>setup actions complete</small>

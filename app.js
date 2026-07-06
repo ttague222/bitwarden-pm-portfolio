@@ -16,6 +16,10 @@ const slides = [
     body: "Mobile is where users feel daily value. PLG is how that value becomes activation, retention, upgrade intent, and renewal confidence."
   },
   {
+    title: "The personas",
+    body: "Four evidence-derived personas anchor the program: the Switcher, the Daily Retriever, the Community Auditor, and the Household Steward. One guidance surface, four correct behaviors."
+  },
+  {
     title: "The recommendation",
     body: "Own Vault Health Value Realization: repair the surface, publish the rules, measure Premium value, then extend coaching."
   },

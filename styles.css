@@ -526,7 +526,16 @@ h3 {
 .mockup-grid {
   grid-template-columns: repeat(auto-fit, minmax(300px, 380px));
   justify-content: center;
-  align-items: start;
+  align-items: stretch;
+}
+
+.phone-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-frame .mock-button {
+  margin-top: auto;
 }
 
 .phone-frame {
@@ -1063,4 +1072,71 @@ code {
 
 .phone-frame .summary-note p {
   margin: 4px 0 0;
+}
+.persona-section {
+  background: var(--surface-soft);
+}
+
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.persona-card {
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--blue-700);
+  border-radius: 8px;
+  padding: 26px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.persona-card h3 {
+  margin: 12px 0 10px;
+}
+
+.persona-card p {
+  margin: 0 0 12px;
+  font-size: 15px;
+}
+
+.persona-who {
+  color: var(--ink);
+}
+
+.persona-need {
+  color: var(--ink);
+}
+
+.persona-evidence {
+  margin-bottom: 0 !important;
+  color: var(--muted);
+  font-size: 13px !important;
+}
+
+.persona-footnote {
+  margin: 22px auto 0;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.resume-note {
+  margin: 0 0 18px;
+  border: 1px solid #f3d9a4;
+  border-radius: 7px;
+  padding: 10px 12px;
+  background: #fdf6e7;
+  color: #7a5b12;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+@media (max-width: 720px) {
+  .persona-grid {
+    grid-template-columns: 1fr;
+  }
 }

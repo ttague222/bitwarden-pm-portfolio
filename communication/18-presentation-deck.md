@@ -26,7 +26,7 @@ The three biggest community events ever: a redesign backlash (973 posts), releas
 Dec 2025: vault health coaching ships, paid, as a repricing pillar. Weeks later, the year's top two feature requests: *let me dismiss it* (51 votes), *tell me why* (40 votes). The market wrote the spec for security guidance here: agency + published reasoning.
 
 **Slide 8, The five opportunities (ranked).**
-1. Daily-path reliability · 2. Vault Health value realization · 3. The vault-organization backlog · 4. Unlock friction · 5. Passkey reliability on mobile. One line of evidence each. Full discovery briefs in the repository.
+1. Daily-path reliability · 2. Vault Health value realization · 3. The vault-organization backlog · 4. Unlock friction · 5. Passkey reliability on mobile. One line of evidence each. Full discovery briefs in the repository. Footer strip: the four evidence-derived personas the whole portfolio is designed against (Switcher · Daily Retriever · Community Auditor · Household Steward).
 
 **Slide 9, The comparison, honestly scored.**
 The weighted matrix. Callouts: highest leverage (#1), highest confidence (#2), highest strategic (#5), quickest win (#2 Phase 1), longest impact (#3), mission-closest (#2).

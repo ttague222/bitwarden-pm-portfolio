@@ -35,7 +35,7 @@ Role fit: the assessment is written for Bitwarden's mobile surface, but the prod
 | Section | Role |
 |---|---|
 | [00 - Executive Summary](00-executive-summary.md) | The argument in two pages |
-| [strategy/](strategy/) | What Bitwarden's shipping record says the strategy is |
+| [strategy/](strategy/) | What Bitwarden's shipping record says the strategy is, plus four evidence-derived [user personas](strategy/04-user-personas.md) |
 | [research/](research/) | Primary evidence: GitHub, forum, release notes, engineering/open-source observations |
 | [opportunities/](opportunities/) | Five discovery briefs, rejected candidates, and the head-to-head comparison |
 | [recommendation/](recommendation/) | Vision, flagship program, metrics, validation, experiment backlog, roadmap |
