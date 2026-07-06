@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Executive Summary | Bitwarden PM Assessment</title>
+    <meta name="description" content="Executive summary for the Bitwarden Product Opportunity Assessment.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Back to Bitwarden PM Assessment home">
+        <span class="shield" aria-hidden="true">B</span>
+        <span>Bitwarden PM Assessment</span>
+      </a>
+      <nav class="top-nav" aria-label="Document navigation">
+        <a href="index.html">Home</a>
+        <a href="flagship-recommendation.html">Flagship</a>
+        <a href="https://github.com/ttague222/bitwarden-pm-portfolio">Repository</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="doc-page">
+      <section class="doc-hero">
+        <p class="eyebrow">Executive Summary</p>
+        <h1>Bitwarden Product Opportunity Assessment</h1>
+        <p class="lede">Thomas Tague | July 2026 | External candidate research</p>
+        <blockquote>
+          <strong>Central thesis:</strong> Bitwarden's advantage has always been showing its work. The opportunity now is to make its security guidance as auditable as its code, before Enhanced Premium renewal pressure turns guidance quality into revenue risk.
+        </blockquote>
+      </section>
+
+      <section class="doc-section">
+        <h2>The Short Version</h2>
+        <div class="table-wrap">
+          <table>
+            <tbody>
+              <tr><th>What did I study?</th><td>Public primary sources: GitHub issues across <code>clients</code>, <code>android</code>, <code>ios</code>, and <code>server</code>; community forum votes; release notes; rejected PRs; ADRs; pricing changes; docs; and press coverage.</td></tr>
+              <tr><th>What changed my mind?</th><td>I started with a mobile Security Coach concept, then found Bitwarden had already shipped coaching. The better problem is making the shipped, monetized guidance surface trustworthy and measurable.</td></tr>
+              <tr><th>Where should a new Senior PM start?</th><td><strong>Vault Health Value Realization:</strong> repair warning agency, publish the methodology, measure Enhanced Premium value, and only then extend coaching.</td></tr>
+              <tr><th>Why this charter?</th><td>It is scoped, visible, tied to the January 2027 renewal moment, useful to both mobile and PLG conversations, and uniquely Bitwarden-shaped.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <h2>Why This Matters For Mobile And PLG</h2>
+        <p>This assessment sits at the intersection of Bitwarden&#8217;s mobile surface and its PLG motion.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Lens</th><th>Product reality</th><th>PM implication</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Mobile</strong></td><td>Reliability, unlock, autofill, passkeys, setup, and warnings are felt in the daily path.</td><td>Small guidance surfaces can become cross-client, OS-mediated trust problems.</td></tr>
+              <tr><td><strong>PLG</strong></td><td>Premium value already exists, but users need to reach it, understand it, and remember it at renewal.</td><td>Activation and upsell must create real security progress, not just more prompts.</td></tr>
+              <tr><td><strong>Trust</strong></td><td>Bitwarden's community expects agency, explanation, and inspectable reasoning.</td><td>Growth mechanics must be community-compatible and auditable.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="callout"><strong>Operating frame:</strong> mobile is the surface, PLG is the business model, trust is the constraint.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>What I Believe Is True</h2>
+        <div class="doc-grid">
+          <article>
+            <span class="tag">1</span>
+            <h3>Bitwarden's strategy is visible in what shipped</h3>
+            <p>Bitwarden is moving from password manager to enterprise identity-security platform. The recommendations do not redirect that strategy. They make existing bets more likely to pay.</p>
+          </article>
+          <article>
+            <span class="tag">2</span>
+            <h3>The loudest signal is trust, not novelty</h3>
+            <p>The highest-engagement public events are redesign backlash, release regressions, and the SDK license controversy. Feature demand is stable by comparison.</p>
+          </article>
+          <article>
+            <span class="tag">3</span>
+            <h3>Vault Health is the year's clearest product lesson</h3>
+            <p>The community response was immediate and specific: let me dismiss warnings, tell me why an item is flagged, and do not turn guidance into repeated noise.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <h2>Opportunity Ranking</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Rank</th><th>Opportunity</th><th>Why it matters</th><th>PM read</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td><strong>Daily-path reliability</strong></td><td>Save, update, fill, unlock, and regression pain dominates public frustration.</td><td>Biggest lever, but it is a broad cross-team quality program.</td></tr>
+              <tr><td>2</td><td><strong>Vault Health value realization</strong></td><td>Paid coaching launched, then generated specific requests for dismissal and explanation.</td><td>Best first charter for a new Senior PM.</td></tr>
+              <tr><td>3</td><td><strong>Vault organization</strong></td><td>Tags, sorting, duplicates, and item types have years of demand and goodwill attached.</td><td>High long-term value, but higher data-loss and migration risk.</td></tr>
+              <tr><td>4</td><td><strong>Unlock friction</strong></td><td>Unlock is the highest-frequency interaction and sits close to crypto/platform decisions.</td><td>Important, but better as second-year territory.</td></tr>
+              <tr><td>5</td><td><strong>Passkey reliability on mobile</strong></td><td>Mobile passkey compatibility affects a flagship strategic bet.</td><td>Strategic risk; leverage depends on fixable-vs-upstream split.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <h2>Recommendation</h2>
+        <p>If Bitwarden hired one Senior PM tomorrow, I would put them on <strong>Vault Health Value Realization</strong>.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Phase</th><th>Goal</th><th>Why it comes here</th></tr></thead>
+            <tbody>
+              <tr><td><strong>1. Repair</strong></td><td>Ship dismissal, snooze, and item-level reasons well.</td><td>Users need agency before they will trust more guidance.</td></tr>
+              <tr><td><strong>2. Transparency</strong></td><td>Publish the at-risk methodology as a public, versioned, RFC-first document.</td><td>Bitwarden can turn guidance into an auditable trust surface.</td></tr>
+              <tr><td><strong>3. Measurement</strong></td><td>Learn whether Enhanced Premium is earning its value before January 2027 renewals.</td><td>Product should not arrive at renewal with anecdotes.</td></tr>
+              <tr><td><strong>4. Extension</strong></td><td>Pilot guided resolution, setup recovery, and value summaries only after repair works.</td><td>Extension should be earned by evidence, not used to cover unresolved trust gaps.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Vault Health is the cleaner new-PM charter: scoped, time-boxed, visible, low crypto entanglement, directly tied to the pricing bet, and strongly aligned with Bitwarden's open-source trust advantage.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>PLG Direction</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Concept</th><th>What it tests</th><th>Guardrail</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Premium Value Summary</strong></td><td>Whether factual value delivered improves renewal confidence and upgrade intent.</td><td>No inflated claims, countdowns, or guilt copy.</td></tr>
+              <tr><td><strong>Security Progress Checklist</strong></td><td>Whether state-aware setup recovery helps users who skipped onboarding.</td><td>Completed and dismissed items stay respected.</td></tr>
+              <tr><td><strong>Community-voted PLG concepts</strong></td><td>Which growth mechanics feel useful versus manipulative to Bitwarden's community.</td><td>Validate before committing to one activation mechanic.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="doc-section">
+        <h2>The Differentiated Move</h2>
+        <blockquote><strong>Watchtower is table stakes. Auditable guidance is the differentiation.</strong></blockquote>
+        <p>1Password can explain a warning in-product. Bitwarden can publish the rules, accept community critique, version the methodology, and turn guidance into another proof point for open-source trust.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>How The Research Changed My Thinking</h2>
+        <p>The strongest signal in this work is not the amount of research. It is the change in conclusion.</p>
+        <p>I began with a mobile Security Coach concept. The research changed it in its original form because Bitwarden had already shipped coaching. The better recommendation became: make the shipped, monetized guidance surface worthy of the price and the brand.</p>
+        <p class="callout">That is the PM loop I would bring to Bitwarden: <strong>state the assumption, find the evidence that could change it, and treat that change as progress.</strong></p>
+      </section>
+      <p class="disclaimer">Independent candidate research based on public sources. Not affiliated with or endorsed by Bitwarden Inc.</p>
+    </main>
+  </body>
+</html>
