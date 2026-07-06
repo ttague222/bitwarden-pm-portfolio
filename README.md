@@ -26,7 +26,7 @@ Role fit: the assessment is written for Bitwarden's mobile surface, but the prod
 
 **If you have 30 minutes:** add [Executive Opportunity Comparison](opportunities/11-executive-opportunity-comparison.md) → [Flagship Recommendation](recommendation/13-flagship-recommendation.md)
 
-**If you want the stakeholder version:** open the [interactive microsite](index.html) for the executive narrative, HTML slide deck, and PLG/mobile concept mockups.
+**If you want the stakeholder version:** open the [interactive microsite](https://bitwarden-pm-portfolio.vercel.app/) for the executive narrative, HTML slide deck, and PLG/mobile concept mockups.
 
 **If you want the evidence base:** start with [Full Research Report](research/04-full-research-report.md), then use the focused extracts in `research/`.
 
@@ -42,7 +42,7 @@ Role fit: the assessment is written for Bitwarden's mobile surface, but the prod
 | [communication/](communication/) | Presentation deck outline and speaker notes |
 | [reflection/](reflection/) | How the evidence changed the original recommendation |
 | [24 - Repository Backlog And Roadmap](24-repository-backlog.md) | The living backlog for improving the assessment itself |
-| [Interactive Microsite](index.html) | Stakeholder-facing web presentation, mockups, and HTML slides |
+| [Interactive Microsite](https://bitwarden-pm-portfolio.vercel.app/) | Stakeholder-facing web presentation, mockups, and HTML slides |
 | [archive/v1-strategy/](archive/v1-strategy/) | The pre-research version, preserved unedited so the delta is visible |
 
 ## Integrity notes
